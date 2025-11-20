@@ -1,0 +1,41 @@
+# Ignore all data files
+data/
+data/*
+data/**
+
+# But optionally allow these (if needed)
+!data/README.txt
+
+
+# Big files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.zip
+*.tar
+*.gz
+*.h5
+*.pkl
+
+# Image and video data
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+
+# Model outputs
+*.ckpt
+*.pt
+*.pth
+*.npy
+*.npz
+
+# IDE & environment stuff
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+.env
